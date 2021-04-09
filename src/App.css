@@ -1,0 +1,107 @@
+body{
+  margin: 0%;
+  background: rgb(230, 199, 152);
+}
+.App{
+  overflow-x: hidden;
+}
+
+ul{
+  display: flex;
+  margin: 0%;
+}
+
+li{
+  list-style: none;
+  padding: 10px;
+  font-size: 25px;
+  cursor: pointer;
+  margin-left: 15px;
+}li:hover{
+  background-color: rgba(0, 0, 0, 0.39);
+}
+
+a{
+  text-decoration: none;
+  color: rgb(236, 194, 130);
+}
+
+nav{
+  background-color: rgb(95, 35, 16);
+  border: 2px solid whitesmoke;
+}
+
+.menu_btn{
+  display: none;
+  padding: 8px 18px 8px 18px;
+  outline: none;
+  background-color: bisque;
+  border: none;
+  margin: 5px;
+}
+
+#city_name{
+  padding: 5px;
+  font-size: 20px;
+  border: none;
+}
+
+#search_btn{
+  padding: 5px;
+  font-size: 18px;
+  background: rgb(212, 143, 52);
+  color: rgb(102, 49, 24);
+  border: none;
+}#search_btn:hover{
+  background: rgb(102, 49, 24);
+  color: rgb(212, 143, 52);
+}
+.sec_1{ 
+  display: inline-block;
+  transform: translate(-50%);
+  margin-left: 50%;
+  margin-top: 10%;
+}
+
+@media only screen and (max-width: 550px){
+  ul{
+    flex-direction: column;
+  }
+  
+  .menu_btn{
+    display: flex;
+  }
+  .red{
+    display: none;
+  }
+
+  .sec_1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+
+
+.box{
+  background: red;
+  display: block;
+  text-align: center;
+  background-color: darkgoldenrod;
+  color: white;
+  width: 200px;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-5%);
+}
+
+.icon{
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 10px;
+}
