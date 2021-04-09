@@ -14,6 +14,7 @@ to run the code in local server :
 2- go install node from https://nodejs.org
 
 3- write in your termminal :
+
       >>> npm i react
       >>> npm init
       >>> npx start
