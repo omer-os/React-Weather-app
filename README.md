@@ -6,6 +6,14 @@ using :
 
 to run the code in local server :
 
-in termminal write :
+1- in termminal write :
 
-      git clone
+      >>> git clone https://github.com/omer-os/React-Weather-app.git
+      >>> cd React-Weather-app
+   
+2- go install node from https://nodejs.org
+
+3- write in your termminal :
+      >>> npm i react
+      >>> npm init
+      >>> npx start
