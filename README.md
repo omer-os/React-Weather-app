@@ -1,2 +1,11 @@
 # React-Weather-app
-created with react.js - using open weather map api - omar_chatin
+using : 
+
+1- React.js
+2- OpenWeatherMap api
+
+to run the code in local server :
+
+in termminal write :
+
+      git clone
